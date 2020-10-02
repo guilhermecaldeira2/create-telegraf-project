@@ -17,6 +17,8 @@ module.exports = {
         alias: {
           '@cli': './src/cli',
           '@config': './src/config',
+          '@commands': './src/commands',
+          '@argumentContext': './src/argumentContext',
         },
       },
     ],
