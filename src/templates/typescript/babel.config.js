@@ -15,13 +15,15 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          '@cli': './src/cli',
-          '@config': './src/config',
-          '@commands': './src/commands',
-          '@modules': './src/modules',
+          '@Config': './src/Config',
+          '@Database': './src/Database',
+          '@Models': './src/Models',
+          '@Modules': './src/Modules',
+          '@Scenes': './src/Scenes',
+          '@SystemEntities': './src/SystemEntities',
         },
       },
     ],
   ],
-  ignore: ['**/*.spec.ts', './src/templates/**'],
+  ignore: ['**/*.spec.ts'],
 };

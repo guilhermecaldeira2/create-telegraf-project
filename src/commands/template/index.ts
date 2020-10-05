@@ -1,5 +1,5 @@
 import { Answers, ListQuestion } from 'inquirer';
-import { IArgument, optionSpec } from '@argumentContext/index';
+import { IArgument, optionSpec } from '@modules/argumentContext/';
 
 class TemplateArg implements IArgument {
   argName = 'template';

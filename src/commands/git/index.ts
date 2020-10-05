@@ -1,6 +1,6 @@
 import arg from 'arg';
 import { Answers, Question } from 'inquirer';
-import { IArgument, argSpec, optionSpec } from '@argumentContext/index';
+import { IArgument, argSpec, optionSpec } from '@modules/argumentContext/';
 
 class GitArg implements IArgument {
   argName = 'git';

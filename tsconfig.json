@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "ES5",
+    "module": "CommonJS",
     "lib": ["es6", "ES2015", "DOM"],
     "declaration": true,
     "strict": true,
@@ -16,12 +16,13 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
     "types": ["node"],
     "paths": {
       "@cli/*": ["./src/cli/*"],
       "@config/*": ["./src/config/*"],
-      "@commands/*": ["src/commands/*"],
-      "@argumentContext/*": ["src/argumentContext/*"]
+      "@commands/*": ["./src/commands/*"],
+      "@modules/*": ["./src/modules/*"]
     }
   }
 }
