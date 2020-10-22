@@ -1,6 +1,6 @@
 import { Telegraf, session, Stage } from 'telegraf';
 import * as env from '@Config/config.json';
-import Scenes from '@Scenes/index';
+import Scenes from '@Scenes';
 import Keyboard from '@Modules/Keyboard';
 import { previousMenu, exit } from '@Scenes/Middlewares/Generic';
 import { Connection } from './Connection';

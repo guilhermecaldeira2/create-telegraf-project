@@ -44,7 +44,7 @@ class CreateProject {
     const access = promisify(fs.access);
     const templateOption = options.template.toLowerCase();
     const workspaceName: string = (options.workspaceName as unknown) as string;
-    const templateDir = path.resolve(path.join(__dirname, '../../templates', templateOption));
+    const templateDir = path.resolve(path.join(__dirname, '../../..templates', templateOption));
     const workspaceTarget = path.resolve(path.join(process.cwd(), workspaceName));
 
     try {
