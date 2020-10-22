@@ -8,7 +8,7 @@
     "@guitdevbr/create-telegraf-project": "./bin/index.js"
   },
   "scripts": {
-    "build": "babel src --extensions \" .js,.ts\" --out-dir bin --copy-files --no-copy-ignored",
+    "build": "babel src --extensions \" .js,.ts\" --out-dir bin --copy-files --no-copy-ignored && cp -r templates bin/templates",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules src/index.ts"
   },
   "keywords": [
