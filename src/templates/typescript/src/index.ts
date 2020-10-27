@@ -2,7 +2,7 @@ import { Telegraf, session, Stage } from 'telegraf';
 import { TelegrafContext } from 'telegraf/typings/context';
 
 import * as env from '@Config/config.json';
-import scenes from '@Scenes/index';
+import scenes from '@Scenes';
 import Connection from './Connection';
 // import { exit } from '@Scenes/Middlewares/Generic';
 
